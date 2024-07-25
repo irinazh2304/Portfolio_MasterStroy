@@ -1,0 +1,94 @@
+:root {
+    --black-color: #000;
+    --white-color: #fff;
+    --base-color: #404040;
+    --btn-color: #e05100;
+    --base-color-hover: #e05200b1;
+    --base-color-active: #fb833d;
+    --transition-duration: 0.3s;
+}
+
+html {
+    box-sizing: border-box; /*чтобы padding работали правильно*/
+}
+*,
+::after,
+::before {
+    box-sizing: inherit; /*inherit-это чтобы box-sizing наследовали от родителя*/
+}
+body {
+    font-size: 12px; /*шрифт по умолчанию*/
+    font-family: "Montserrat", sans-serif;
+    margin: 0; /*обнуление всех margin по умолчанию, если его размер не указан*/
+    color: var(--black-color);
+    background-color: var(--white-color);
+}
+img {
+    max-width: 100%; /*чтобы картинка не выходила за пределы экрана*/
+}
+a {
+    text-decoration: none; /*чтобы не было нижнего подчеркивания по умолчанию*/
+}
+
+/*--------------Контейнер--------------*/
+
+.container {
+    width: 100%;
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
+
+/*--------------кнопка--------------*/
+
+.default-btn {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--white-color);
+    padding: 20px 85px;
+    border-radius: 30px;
+    background-color: var(--btn-color);
+    border: none;
+    transition: outline-color var(--transition-duration), background-color var(--transition-duration);
+    cursor: pointer; /*курсор в виде руки*/
+}
+.default-btn:hover {
+    background-color: var(--base-color-hover);
+}
+.default-btn:active {
+    background-color: var(--base-color-active);
+}
+
+/*--------------Стилизация подзаголовка--------------*/
+
+.subtitle {
+    margin: 0;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+/*--------------Стилизация карточки каталога товаров--------------*/
+
+.catalog-card {
+    background-color: white;
+    border-radius: 30px;
+}
+.catalog-card__body {
+    display: flex;
+    flex-direction: column;
+    padding: 60px 32px 90px 32px;
+}
+.catalog-card__img {
+    display: block;
+    flex-shrink: 0; /*чтобы изображение не сжималось*/
+    height: 265px;
+    object-fit: contain; /*определяет как содержимое img заполняет контейнер относительно его ширины и высоты*/
+}
+.catalog-card__title {
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-size: 14px;
+    font-weight: 700;
+}

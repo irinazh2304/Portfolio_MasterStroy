@@ -1,0 +1,52 @@
+/*--------------header--------------*/
+
+.header {
+    background-color: var(--base-color);
+    color: var(--white-color);
+    &__wrap {
+        display: flex;
+        align-items: center;
+        height: 79px;
+
+        &_number {
+            padding-left: 32px;
+        }
+    }
+    &__list {
+        display: flex;
+    }
+    &__item {
+        display: flex;
+        align-items: center;
+
+        &_geo {
+            width: 34px;
+            height: 34px;
+        }
+        &_watch {
+            width: 22px;
+            height: 22px;
+            margin: 0px 20px 0px 20px;
+        }
+        &_phone {
+            width: 15px;
+            height: 15px;
+            margin: 0px 20px 0px 20px;
+        }
+        &_title-1 {
+            padding-right: 25px;
+            padding-left: 16px;
+        }
+        &_title-2 {
+            padding-right: 30px;
+        }
+    }
+}
+.default-btn {
+    &__header {
+        background-color: var(--white-color);
+        color: var(--black-color);
+        padding: 16px 54px;
+        margin-left: 42px;
+    }
+}

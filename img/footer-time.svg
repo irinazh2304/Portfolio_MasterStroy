@@ -1,0 +1,14 @@
+<svg width="22.000000" height="22.000000" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip24_10">
+			<rect id="clock_icon-icons.com_64800 2" width="22.000000" height="22.000000" transform="matrix(-1 0 0 1 22 0)" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<rect id="clock_icon-icons.com_64800 2" width="22.000000" height="22.000000" transform="matrix(-1 0 0 1 22 0)" fill="#FFFFFF" fill-opacity="0"/>
+	<g clip-path="url(#clip24_10)">
+		<path id="Vector" d="M11 2.93311C11.4055 2.93311 11.7333 3.26123 11.7333 3.6665L11.7333 10.2666L15.4 10.2666C15.8055 10.2666 16.1333 10.5942 16.1333 11C16.1333 11.4058 15.8055 11.7334 15.4 11.7334L11 11.7334C10.5945 11.7334 10.2667 11.4058 10.2667 11L10.2667 3.6665C10.2667 3.26123 10.5945 2.93311 11 2.93311ZM11 0C17.0749 0 22 4.92529 22 11C22 17.0747 17.0749 22 11 22C4.92507 22 0 17.0747 0 11C0 4.92529 4.92507 0 11 0ZM11 20.5332C16.2653 20.5332 20.5333 16.2651 20.5333 11C20.5333 5.73486 16.2653 1.4668 11 1.4668C5.73467 1.4668 1.46667 5.73486 1.46667 11C1.46667 16.2651 5.73467 20.5332 11 20.5332Z" fill="#000000" fill-opacity="1.000000" fill-rule="nonzero"/>
+	</g>
+</svg>

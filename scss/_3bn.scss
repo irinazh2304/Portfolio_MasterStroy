@@ -1,0 +1,43 @@
+.bn {
+    &__wrap {
+        display: flex;
+        align-items: center;
+        position: relative;
+        height: auto;
+        min-height: 580px;
+    }
+}
+.bn-picture {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
+.block-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 0 80px;
+
+    &__title {
+        font-size: 40px;
+        font-weight: 700;
+        color: var(--white-color);
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    &__subtitle {
+        margin-top: 20px;
+        font-size: 14px;
+        color: var(--white-color);
+        text-align: center;
+        padding-bottom: 50px;
+    }
+}
+
